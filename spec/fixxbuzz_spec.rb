@@ -21,4 +21,24 @@ describe 'fizzbuzz' do
 		expect(fizzbuzz(12)).to eq 'fizz'
 	end
 
+	it 'returns "buzz" for multiples of 5' do
+		expect(fizzbuzz(10)).to eq 'buzz'
+	end
+
+	it 'returns "buzz" for multiples of 5' do
+		expect(fizzbuzz(20)).to eq 'buzz'
+	end
+
+	it 'returns "buzz" for multiples of 5' do
+		expect(fizzbuzz(25)).to eq 'buzz'
+	end
+
+	it 'returns "fizzbuzz" for multiples of both 3 and 5' do
+		expect(fizzbuzz(15)).to eq 'fizzbuzz'
+	end
+
+	it 'returns "fizzbuzz" for multiples of both 3 and 5' do
+		expect(fizzbuzz(30)).to eq 'fizzbuzz'
+	end
+
 end
