@@ -41,4 +41,17 @@ describe 'fizzbuzz' do
 		expect(fizzbuzz(30)).to eq 'fizzbuzz'
 	end
 
+	it 'returns the same number for non multiples of 3 or 5' do
+		expect(fizzbuzz(2)).to eq 2
+	end
+
+	it 'returns the same number for non multiples of 3 or 5' do
+		expect(fizzbuzz(1)).to eq 1
+	end
+	it 'returns the same number for non multiples of 3 or 5' do
+		expect(fizzbuzz(4)).to eq 4
+	end
+	it 'returns the same number for non multiples of 3 or 5' do
+		expect(fizzbuzz(7)).to eq 7
+	end
 end
